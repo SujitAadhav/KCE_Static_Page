@@ -1,0 +1,36 @@
+@media screen and (max-width: 1060px) {
+    .section-1{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .headContainer{
+        flex-direction: column;
+    }
+
+    .headContainerFirst{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .section-1-enquiry-notice-box{
+        display: none;
+    }
+
+    .section-1-main-box{
+        max-width: 100vw;
+        padding: 23px;
+    }
+
+    .section-1-main-box div img{
+        width: 100vw;
+    }
+
+    .section-1-president-box{
+        width: 75vw;
+    }
+
+    .section-1-principal-box{
+        width: 75vw;
+    }
+}

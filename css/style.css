@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Section */
+.headContainer{
+    display: flex;
+    padding: 18px;
+    justify-content: space-evenly;
+    background-color: #f9d6dc;
+}
+
+.headContainerFirst{
+    display: flex;
+}
+
+.kce-logo img{
+    margin-right: 33px;
+    width: 8rem;
+}
+.college-name{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    line-height: 0.5;
+    font-size: 15px;
+}
+
+.college-name h2{
+    font-weight: 600;
+    color: #8c1857;
+    font-size: x-large;
+}
+
+.admission-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.headContainer .admission-links .h5{
+    text-align: center;
+    color: red;
+    font-size: 18px;
+}
+
+
+
+/* Navbar */
+.bg-purple {
+    background-color: #8c1857;
+}
+
+#navbarDropdown, #white-color{
+    color: #fff;
+}
+
+/* Slide Images */
+.w-100 {
+    width: 100vw!important;
+    height: 70vh;
+}
+
+
+.section-1-headBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9d6dc;
+}
+
+.section-1-headBox p.h5{
+    font-family: 'Luxurious Roman', cursive;
+    color: #2e3192;
+    font-size: 20px;
+}
+
+.section-1-headBox p span{
+    font-weight: 900;
+}
+
+/* Presedent Box */
+.section-1-box-1{
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-top: 2px solid purple;
+    width: 24vw;
+    margin-left: 20px;
+}
+.section-1-president-box {
+    background-color: #f9d6dc;
+    margin: 5px;
+    width: 23vw;
+    padding: 10px;
+    border-bottom: 2px solid purple;
+}
+
+.section-1-president-box p.h5{
+    color: #800000;;
+}
+
+.section-1-president-box .president-orange{
+    color: red;
+}
+
+.section-1-president-box img{
+    padding-right: 5px;
+    width: 130px;
+    height: 130px;
+    float: left;
+}
+
+.section-1-president-box .btn{
+    background-color: #662e91;
+}
+
+.section-1-president-box .btn:hover{
+    background-color: orange;
+}
+
+/* Principal Box */
+.section-1-principal-box {
+    background-color: #f9d6dc;
+    margin: 5px;
+    width: 23vw;
+    padding: 10px;
+    border-bottom: 2px solid purple;
+}
+
+.section-1-principal-box p.h5{
+    color: #800000;;
+}
+
+.section-1-principal-box .principal-orange{
+    color: red;
+}
+
+.section-1-principal-box img{
+    padding-right: 5px;
+    width: 130px;
+    height: 130px;
+    float: left;
+}
+
+.section-1-principal-box .btn{
+    background-color: #662e91;
+}
+
+.section-1-principal-box .btn:hover{
+    background-color: orange;
+}
+
+/* image zoom on hover css */
+.inner{
+    overflow: hidden;
+}
+
+.inner img{
+    transition: all 1.5s ease;
+}
+
+.inner:hover img{
+    transform: scale(1.5);
+}
+
+/*********************************/
+
+.section-1-main-box {
+    /* border: 2px solid black; */
+    max-width: 47vw;
+    margin-top: 30px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-1-main-box p{
+   text-align: justify;
+}
+
+.section-1-main-box .bold-underline{
+    display: inline-block;
+    border-bottom: 5px solid #ff9000;
+    padding-bottom: 1px;
+}
+
+.section-1-main-box .light-underline{
+    display: inline-block;
+    border-bottom: 2px solid #ff9000;
+    padding-bottom: 4px;
+}
+
+.section-1-main-box div img{
+    width: 47vw;
+}
+
+.section-1-main-box .btn{
+    background-color: #662e91;
+}
+
+.section-1-main-box .btn:hover{
+    background-color: orange;
+}
+
+
+.section-1-main-box-2{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.enquiry-flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.border-top-purple{
+    border-top: 2px solid purple;
+    top: 54.5rem;
+    right: 30px;
+    position: absolute;
+    width: 23vw;
+    padding: 10px;
+}
+.section-1-enquiry-box{
+    /* border: 2px solid black; */
+    top: 55rem;
+    right: 30px;
+    position: absolute;
+    background-color: #f9d6dc;
+    width: 23vw;
+    padding: 10px;
+    border-bottom: 2px solid purple;
+    color: #662e91;;
+}
+
+.section-1-enquiry-notice-box .bold-underline{
+    display: inline-block;
+    border-bottom: 5px solid #ff9000;
+    padding-bottom: 1px;
+}
+
+.section-1-enquiry-notice-box .light-underline{
+    display: inline-block;
+    border-bottom: 2px solid #ff9000;
+    padding-bottom: 4px;
+}
+
+.section-1-enquiry-notice-box .form-group{
+    margin-bottom: 0;
+}
+
+.section-1-enquiry-notice-box .form-select{
+    margin-top: 1.5rem;
+}
+
+.section-1-enquiry-notice-box .btn {
+    background-color: #662e91;
+    margin-top: 20px;
+}
+
+.section-1-enquiry-notice-box .btn:hover {
+    background-color: orange;
+}
+
+.section-1-notice-box{
+        /* border: 2px solid black; */
+        top: 86rem;
+        right: 30px;
+        position: absolute;
+        background-color: #f9d6dc;
+        width: 23vw;
+        padding: 10px;
+        height: 50vh;
+        border-bottom: 2px solid purple;
+        color: #662e91;;
+}
+
+/* Footer */
+/* Footer */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    background: #8c1857 !important;
+}
+
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
